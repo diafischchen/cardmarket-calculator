@@ -22,4 +22,4 @@ spl_autoload_register(function($class) {
 });
 
 $view = new View;
-$view->render('header')->render('footer');
+$view->render('header')->render('navbar')->render('footer');
