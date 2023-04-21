@@ -2,7 +2,7 @@
 
 class App {
 
-    public function start() {
+    public function index() {
 
         $view = new View;
         

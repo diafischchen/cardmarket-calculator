@@ -20,8 +20,18 @@ const submitButton = document.getElementById('add-card-submit')
 
 form.addEventListener('submit', function(e) {
     e.preventDefault()
-    cardLinkInput.value = ''
+    //cardLinkInput.value = ''
     submitButton.setAttribute('aria-busy', 'true')
+
+    $.ajax({
+        url: `index.php?action=addcard&cardlink=${cardLinkInput.value}`,
+        success: function(data, textStatus, xhr) {
+            form.insertAdjacentHTML('afterend', data)
+            cardLinkInput.value = ''
+            submitButton.setAttribute('aria-busy', 'false')
+        }
+    })
+
 })
 
 </script>

@@ -21,5 +21,5 @@ spl_autoload_register(function($class) {
 
 });
 
-$app = new App;
-$app->start();
+$router = new Router;
+$router->start();
