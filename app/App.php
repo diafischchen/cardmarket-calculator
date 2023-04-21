@@ -11,6 +11,7 @@ class App {
             ->render('navbar')
             ->render('addcards')
             ->render('mycards')
+            ->render('results')
             ->render('footer');
 
     }

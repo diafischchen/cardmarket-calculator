@@ -12,3 +12,4 @@
     <article><center><img src="https://static.cardmarket.com/img/a215d9bce78d50d1a9f8db839ce56de5/items/51/SVI/702536.jpg" /><br />50€</center></article>
     <article><center><img src="https://static.cardmarket.com/img/a525653463c48700b553f50f05db6560/items/51/SVI/702507.jpg" /><br />7€</center></article>
 </div>
+<div style="margin-top: 80px;"></div>
