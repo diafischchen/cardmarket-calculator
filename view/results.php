@@ -1,4 +1,4 @@
-<article>
+<article id="results">
     <header>Sammlungsstatistik</header>
 
     <table>

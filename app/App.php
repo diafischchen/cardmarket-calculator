@@ -2,7 +2,15 @@
 
 class App {
 
+    private Storage $storage;
+
+    function __construct() {
+        $this->storage = new Storage;
+    }
+
     public function index() {
+
+        $savedata = $this->storage->getCurrentSave();
 
         $view = new View;
         
@@ -10,8 +18,8 @@ class App {
             ->render('header')
             ->render('navbar')
             ->render('addcards')
-            ->render('mycards')
-            ->render('results')
+            ->renderMyCards($savedata)
+            ->renderResults($savedata)
             ->render('footer');
 
     }

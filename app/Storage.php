@@ -8,4 +8,12 @@ class Storage {
         $this->cookie = new Cookie;
     }
 
+    public function getCurrentSave(): string | null {
+        return $this->cookie->getCookie('savedata');
+    }
+
+    public function setCurrentSave() {
+        
+    }
+
 }

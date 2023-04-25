@@ -14,4 +14,23 @@ class View {
 
     }
 
+    public function renderMyCards(array | null $savedata = []) {
+
+        if (empty($savedata['cards']) || $savedata === null) {
+            return $this;
+        }
+
+        return $this->render('mycards');
+    }
+
+    public function renderResults(array | null $savedata = []) {
+
+        if (empty($savedata['cards']) || $savedata === null) {
+            return $this;
+        }
+
+        return $this->render('results');
+
+    }
+
 }
