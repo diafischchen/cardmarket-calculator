@@ -6,6 +6,7 @@ class Router {
         'index',
         'reloadcomponent',
         'addcard',
+        'removecard',
         'calculate'
     ];
     private string $defaultRoute = 'index';
@@ -28,6 +29,12 @@ class Router {
         switch ($action) {
             case 'index':
                 $this->app->index();
+                break;
+            case 'addcard':
+                $this->app->addCard();
+                break;
+            case 'removecard':
+                $this->app->removeCard();
                 break;
             default:
                 $this->app->index();

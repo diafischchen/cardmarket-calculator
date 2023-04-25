@@ -5,6 +5,7 @@
     'version' => 1,
     'cards' => [
         [
+            'id' => '1',
             'name' => 'Trasla (SVI 211)',
             'link' => 'https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Ralts-V2-SV1en211',
             'image' => 'https://static.cardmarket.com/img/a525653463c48700b553f50f05db6560/items/51/SVI/702507.jpg',
@@ -22,6 +23,7 @@
             ],
         ],
         [
+            'id' => '2',
             'name' => 'Forschung des Professors (SVI 240)',
             'link' => 'https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Professors-Research-V3-SV1en240',
             'image' => 'https://static.cardmarket.com/img/a215d9bce78d50d1a9f8db839ce56de5/items/51/SVI/702536.jpg',
